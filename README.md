@@ -1,2 +1,2 @@
-![normal].(./normal.png)
-![injection].(./sql_injection.png)
+![normal](./normal.png)
+![injection](./sql_injection.png)

@@ -1,0 +1,8 @@
+SELECT * FROM users WHERE username = 'admin' OR 1=1 --';
+SELECT name, email FROM users WHERE id = 10 UNION SELECT password, username FROM admin --;
+SELECT * FROM users WHERE id = '5' /* malicious comment */ OR '1'='1';
+SELECT pg_sleep(5) WHERE username='admin';
+' OR '1'='1'; --
+DROP TABLE users; --
+UPDATE products SET price = 99.99 WHERE product_id = 25;
+SELECT * FROM users WHERE username = 'admin' OR 1=1 --';

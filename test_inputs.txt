@@ -1,0 +1,4 @@
+SELECT * FROM users WHERE username='admin'
+SELECT * FROM users WHERE username='admin' OR 1=1 --
+DROP TABLE users
+Hello my name is Rishabh
